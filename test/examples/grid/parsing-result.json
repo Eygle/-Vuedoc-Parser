@@ -1,0 +1,105 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [
+    {
+      "kind": "prop",
+      "keywords": [],
+      "visibility": "public",
+      "name": "data",
+      "type": "array",
+      "required": false,
+      "describeModel": false
+    },
+    {
+      "kind": "prop",
+      "keywords": [],
+      "visibility": "public",
+      "name": "columns",
+      "type": "array",
+      "required": false,
+      "describeModel": false
+    },
+    {
+      "kind": "prop",
+      "keywords": [],
+      "visibility": "public",
+      "name": "filter-key",
+      "type": "string",
+      "required": false,
+      "describeModel": false
+    }
+  ],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "sortKey",
+      "type": "string",
+      "initialValue": "\"\""
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "sortOrders",
+      "type": "unknown",
+      "initialValue": "props.columns.reduce((o, key) => ((o[key] = 1), o), {})"
+    }
+  ],
+  "computed": [
+    {
+      "kind": "computed",
+      "keywords": [],
+      "visibility": "public",
+      "name": "filteredData",
+      "type": "array",
+      "dependencies": []
+    }
+  ],
+  "methods": [
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "sortBy",
+      "params": [
+        {
+          "name": "key",
+          "type": "unknown",
+          "rest": false
+        }
+      ],
+      "syntax": [
+        "sortBy(key: unknown): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "capitalize",
+      "params": [
+        {
+          "name": "str",
+          "type": "unknown",
+          "rest": false
+        }
+      ],
+      "syntax": [
+        "capitalize(str: unknown): unknown"
+      ],
+      "returns": {
+        "type": "unknown"
+      }
+    }
+  ],
+  "events": [],
+  "slots": []
+}

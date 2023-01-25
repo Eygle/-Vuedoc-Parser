@@ -1,0 +1,110 @@
+{
+  "name": "checkbox",
+  "description": "A simple checkbox component",
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [
+    {
+      "name": "contributor",
+      "description": "Sébastien"
+    }
+  ],
+  "props": [
+    {
+      "kind": "prop",
+      "description": "The checkbox model",
+      "keywords": [],
+      "visibility": "public",
+      "name": "v-model",
+      "type": "array",
+      "required": true,
+      "describeModel": true
+    },
+    {
+      "kind": "prop",
+      "description": "Initial checkbox state",
+      "keywords": [],
+      "visibility": "public",
+      "name": "disabled",
+      "type": "boolean",
+      "required": false,
+      "describeModel": false
+    },
+    {
+      "kind": "prop",
+      "description": "Initial checkbox value",
+      "keywords": [],
+      "visibility": "public",
+      "name": "checked",
+      "type": "boolean",
+      "default": "true",
+      "required": false,
+      "describeModel": false
+    }
+  ],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "initialValue",
+      "type": "unknown",
+      "initialValue": "null"
+    }
+  ],
+  "computed": [
+    {
+      "kind": "computed",
+      "keywords": [],
+      "visibility": "public",
+      "name": "id",
+      "type": "string",
+      "dependencies": []
+    }
+  ],
+  "methods": [],
+  "events": [
+    {
+      "kind": "event",
+      "description": "Emit when the component has been loaded",
+      "keywords": [],
+      "visibility": "public",
+      "name": "loaded",
+      "arguments": []
+    }
+  ],
+  "slots": [
+    {
+      "kind": "slot",
+      "description": "Default slot",
+      "keywords": [],
+      "visibility": "public",
+      "name": "default",
+      "props": []
+    },
+    {
+      "kind": "slot",
+      "description": "Use this slot to set the checkbox label",
+      "keywords": [],
+      "visibility": "public",
+      "name": "label",
+      "props": []
+    },
+    {
+      "kind": "slot",
+      "description": "This\nis multiline description",
+      "keywords": [],
+      "visibility": "public",
+      "name": "multiline",
+      "props": []
+    },
+    {
+      "kind": "slot",
+      "keywords": [],
+      "visibility": "public",
+      "name": "undescribed",
+      "props": []
+    }
+  ]
+}

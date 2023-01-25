@@ -1,0 +1,37 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "searchQuery",
+      "type": "string",
+      "initialValue": "\"\""
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "gridColumns",
+      "type": "array",
+      "initialValue": "[\"name\",\"power\"]"
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "gridData",
+      "type": "array",
+      "initialValue": "[{\"name\":\"Chuck Norris\",\"power\":\"Infinity\"},{\"name\":\"Bruce Lee\",\"power\":9000},{\"name\":\"Jackie Chan\",\"power\":7000},{\"name\":\"Jet Li\",\"power\":8000}]"
+    }
+  ],
+  "computed": [],
+  "methods": [],
+  "events": [],
+  "slots": []
+}

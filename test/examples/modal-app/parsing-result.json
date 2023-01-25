@@ -1,0 +1,21 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "showModal",
+      "type": "boolean",
+      "initialValue": "false"
+    }
+  ],
+  "computed": [],
+  "methods": [],
+  "events": [],
+  "slots": []
+}

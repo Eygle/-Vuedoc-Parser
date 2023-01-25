@@ -1,0 +1,179 @@
+---
+root: true
+env:
+  node: true
+parser: '@typescript-eslint/parser'
+plugins:
+  - import
+  - unused-imports
+  - '@typescript-eslint'
+extends:
+  - eslint:recommended
+  - airbnb-base
+  - plugin:import/recommended
+  - plugin:import/typescript
+  - plugin:@typescript-eslint/recommended
+  - plugin:security/recommended
+parserOptions:
+  ecmaVersion: 2019
+  sourceType: module
+rules:
+  '@typescript-eslint/ban-types': 'off'
+  '@typescript-eslint/indent': 'off'
+  '@typescript-eslint/explicit-function-return-type': 'off'
+  '@typescript-eslint/explicit-member-accessibility': 'off'
+  '@typescript-eslint/interface-name-prefix': 'off'
+  '@typescript-eslint/no-empty-function': 'off'
+  '@typescript-eslint/no-explicit-any': 'off'
+  '@typescript-eslint/no-empty-interface': 'off'
+  '@typescript-eslint/no-this-alias': 'off'
+  '@typescript-eslint/no-unused-vars': 'off'
+  '@typescript-eslint/no-var-requires': 'off'
+  arrow-body-style: 'off'
+  array-bracket-spacing:
+    - error
+    - never
+  arrow-parens:
+    - error
+    - always
+  block-scoped-var: error
+  comma-dangle:
+    - error
+    - arrays: always-multiline
+      objects: always-multiline
+      imports: never
+      exports: never
+      functions: never
+  class-methods-use-this: 'off'
+  default-case: 'off'
+  global-require: 'off'
+  guard-for-in: 'off'
+  import/default: 'off'
+  import/extensions:
+    - 'error'
+    - 'always'
+    - ignorePackages: false
+  import/named: 'off'
+  import/no-cycle: 'off'
+  import/no-dynamic-require: 'off'
+  import/no-extraneous-dependencies: 'off'
+  import/no-named-as-default: 'off'
+  import/no-named-as-default-member: 'off'
+  import/no-unresolved:
+    - 'off'
+  import/order: 'off'
+  import/prefer-default-export: 'off'
+  jest/expect-expect: 'off'
+  lines-between-class-members: 'off'
+  no-console: error
+  no-continue: 'off'
+  no-debugger: error
+  no-fallthrough: 'off'
+  no-lonely-if: error
+  no-nested-ternary: 'off'
+  no-param-reassign: 'off'
+  no-plusplus: 'off'
+  no-prototype-builtins: 'off'
+  no-underscore-dangle: 'off'
+  no-use-before-define: 'off'
+  no-restricted-syntax: 'off'
+  no-shadow: 'off'
+  no-trailing-spaces: 'error'
+  no-useless-constructor: 'off'
+  no-var: error
+  max-classes-per-file: 'off'
+  max-len:
+    - error
+    - code: 148
+      comments: 128
+      tabWidth: 2
+      ignoreUrls: true
+      ignoreStrings: true
+      ignoreRegExpLiterals: true
+      ignoreTemplateLiterals: true
+      ignorePattern: '(@returns|@param)'
+  object-curly-newline: 'off'
+  object-shorthand: 'off'
+  padding-line-between-statements:
+    - error
+    - blankLine: always
+      prev: block-like
+      next: '*'
+    - blankLine: always
+      prev: '*'
+      next: block-like
+    - blankLine: any
+      prev: block-like
+      next:
+        - block-like
+        - break
+    - blankLine: always
+      prev: '*'
+      next:
+        - return
+    - blankLine: always
+      prev:
+        - const
+        - let
+        - var
+        - function
+      next: '*'
+    - blankLine: always
+      prev:
+        - import
+      next:
+        - export
+    - blankLine: any
+      prev:
+        - const
+        - let
+        - var
+      next:
+        - const
+        - let
+        - var
+    - blankLine: always
+      prev: directive
+      next: '*'
+    - blankLine: any
+      prev: directive
+      next: directive
+  prefer-destructuring: 'off'
+  prefer-template: 'off'
+  quotes:
+    - error
+    - single
+    - avoidEscape: true
+  security/detect-non-literal-fs-filename: 'off'
+  security/detect-non-literal-regexp: 'off'
+  security/detect-object-injection: 'off'
+  security/detect-unsafe-regex: 'off'
+  semi:
+    - error
+    - always
+  space-before-function-paren:
+    - error
+    - anonymous: never
+      named: never
+      asyncArrow: always
+  unused-imports/no-unused-imports: 'error'
+  unused-imports/no-unused-vars:
+    - warn
+    - vars: all
+      varsIgnorePattern: '^_'
+      args: after-used
+      argsIgnorePattern: '^_'
+overrides:
+  - files:
+      - '**/*.d.ts'
+    rules:
+      import/extensions: 'off'
+      max-len: 'off'
+      unused-imports/no-unused-vars: 'off'
+  - files:
+      - '**/test/**'
+    rules:
+      max-len: 'off'
+      indent: 'off'
+      no-template-curly-in-string: 'off'
+      no-underscore-dangle: 'off'

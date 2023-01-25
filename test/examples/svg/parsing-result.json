@@ -1,0 +1,68 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "newLabel",
+      "type": "string",
+      "initialValue": "\"\""
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "stats",
+      "type": "array",
+      "initialValue": "[{\"label\":\"A\",\"value\":100},{\"label\":\"B\",\"value\":100},{\"label\":\"C\",\"value\":100},{\"label\":\"D\",\"value\":100},{\"label\":\"E\",\"value\":100},{\"label\":\"F\",\"value\":100}]"
+    }
+  ],
+  "computed": [],
+  "methods": [
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "add",
+      "params": [
+        {
+          "name": "e",
+          "type": "unknown",
+          "rest": false
+        }
+      ],
+      "syntax": [
+        "add(e: unknown): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "remove",
+      "params": [
+        {
+          "name": "stat",
+          "type": "unknown",
+          "rest": false
+        }
+      ],
+      "syntax": [
+        "remove(stat: unknown): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ],
+  "events": [],
+  "slots": []
+}

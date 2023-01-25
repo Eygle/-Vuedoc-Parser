@@ -1,0 +1,115 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "names",
+      "type": "array",
+      "initialValue": "[\"Emil, Hans\",\"Mustermann, Max\",\"Tisch, Roman\"]"
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "selected",
+      "type": "string",
+      "initialValue": "\"\""
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "prefix",
+      "type": "string",
+      "initialValue": "\"\""
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "first",
+      "type": "string",
+      "initialValue": "\"\""
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "last",
+      "type": "string",
+      "initialValue": "\"\""
+    }
+  ],
+  "computed": [
+    {
+      "kind": "computed",
+      "keywords": [],
+      "visibility": "public",
+      "name": "filteredNames",
+      "type": "unknown",
+      "dependencies": []
+    }
+  ],
+  "methods": [
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "create",
+      "params": [],
+      "syntax": [
+        "create(): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "update",
+      "params": [],
+      "syntax": [
+        "update(): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "del",
+      "params": [],
+      "syntax": [
+        "del(): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "hasValidInput",
+      "params": [],
+      "syntax": [
+        "hasValidInput(): boolean"
+      ],
+      "returns": {
+        "type": "boolean"
+      }
+    }
+  ],
+  "events": [],
+  "slots": []
+}

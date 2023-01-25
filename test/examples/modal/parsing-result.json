@@ -1,0 +1,52 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [
+    {
+      "kind": "prop",
+      "keywords": [],
+      "visibility": "public",
+      "name": "show",
+      "type": "boolean",
+      "required": false,
+      "describeModel": false
+    }
+  ],
+  "data": [],
+  "computed": [],
+  "methods": [],
+  "events": [
+    {
+      "kind": "event",
+      "keywords": [],
+      "visibility": "public",
+      "name": "close",
+      "arguments": []
+    }
+  ],
+  "slots": [
+    {
+      "kind": "slot",
+      "keywords": [],
+      "visibility": "public",
+      "name": "header",
+      "props": []
+    },
+    {
+      "kind": "slot",
+      "keywords": [],
+      "visibility": "public",
+      "name": "body",
+      "props": []
+    },
+    {
+      "kind": "slot",
+      "keywords": [],
+      "visibility": "public",
+      "name": "footer",
+      "props": []
+    }
+  ]
+}

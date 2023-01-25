@@ -1,0 +1,76 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "branches",
+      "type": "array",
+      "initialValue": "[\"main\",\"v2-compat\"]"
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "currentBranch",
+      "type": "string",
+      "initialValue": "\"main\""
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "commits",
+      "type": "unknown",
+      "initialValue": "null"
+    }
+  ],
+  "computed": [],
+  "methods": [
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "truncate",
+      "params": [
+        {
+          "name": "v",
+          "type": "unknown",
+          "rest": false
+        }
+      ],
+      "syntax": [
+        "truncate(v: unknown): unknown"
+      ],
+      "returns": {
+        "type": "unknown"
+      }
+    },
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "formatDate",
+      "params": [
+        {
+          "name": "v",
+          "type": "unknown",
+          "rest": false
+        }
+      ],
+      "syntax": [
+        "formatDate(v: unknown): unknown"
+      ],
+      "returns": {
+        "type": "unknown"
+      }
+    }
+  ],
+  "events": [],
+  "slots": []
+}

@@ -1,0 +1,29 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "show",
+      "type": "boolean",
+      "initialValue": "true"
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "list",
+      "type": "array",
+      "initialValue": "[1,2,3]"
+    }
+  ],
+  "computed": [],
+  "methods": [],
+  "events": [],
+  "slots": []
+}

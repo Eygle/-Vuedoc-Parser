@@ -1,0 +1,21 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "groceryList",
+      "type": "array",
+      "initialValue": "[{\"id\":0,\"text\":\"Vegetables\"},{\"id\":1,\"text\":\"Cheese\"},{\"id\":2,\"text\":\"Whatever else humans are supposed to eat\"}]"
+    }
+  ],
+  "computed": [],
+  "methods": [],
+  "events": [],
+  "slots": []
+}

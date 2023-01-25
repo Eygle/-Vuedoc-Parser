@@ -1,0 +1,48 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "message",
+      "type": "string",
+      "initialValue": "\"Hello World!\""
+    }
+  ],
+  "computed": [],
+  "methods": [
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "reverseMessage",
+      "params": [],
+      "syntax": [
+        "reverseMessage(): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "notify",
+      "params": [],
+      "syntax": [
+        "notify(): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ],
+  "events": [],
+  "slots": []
+}

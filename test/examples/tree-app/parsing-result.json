@@ -1,0 +1,21 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "treeData",
+      "type": "object",
+      "initialValue": "{\"name\":\"My Tree\",\"children\":[{\"name\":\"hello\"},{\"name\":\"world\"},{\"name\":\"child folder\",\"children\":[{\"name\":\"child folder\",\"children\":[{\"name\":\"hello\"},{\"name\":\"wat\"}]},{\"name\":\"hello\"},{\"name\":\"wat\"},{\"name\":\"child folder\",\"children\":[{\"name\":\"hello\"},{\"name\":\"wat\"}]}]}]}"
+    }
+  ],
+  "computed": [],
+  "methods": [],
+  "events": [],
+  "slots": []
+}

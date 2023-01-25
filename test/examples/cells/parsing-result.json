@@ -1,0 +1,70 @@
+{
+  "inheritAttrs": true,
+  "errors": [
+    "Cannot find module './store.js'. Make sure to define options.resolver"
+  ],
+  "warnings": [],
+  "keywords": [],
+  "props": [
+    {
+      "kind": "prop",
+      "keywords": [],
+      "visibility": "public",
+      "name": "c",
+      "type": "number",
+      "required": false,
+      "describeModel": false
+    },
+    {
+      "kind": "prop",
+      "keywords": [],
+      "visibility": "public",
+      "name": "r",
+      "type": "number",
+      "required": false,
+      "describeModel": false
+    }
+  ],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "cells",
+      "type": "unknown",
+      "initialValue": "\"cells\""
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "editing",
+      "type": "boolean",
+      "initialValue": "false"
+    }
+  ],
+  "computed": [],
+  "methods": [
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "update",
+      "params": [
+        {
+          "name": "e",
+          "type": "unknown",
+          "rest": false
+        }
+      ],
+      "syntax": [
+        "update(e: unknown): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ],
+  "events": [],
+  "slots": []
+}

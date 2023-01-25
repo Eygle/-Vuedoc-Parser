@@ -1,0 +1,65 @@
+{
+  "description": "Here we are reactively binding element attributes / properties to the state.\nThe :title syntax is short for v-bind:title.",
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "message",
+      "type": "string",
+      "initialValue": "\"Hello World!\""
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "isRed",
+      "type": "boolean",
+      "initialValue": "true"
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "color",
+      "type": "string",
+      "initialValue": "\"green\""
+    }
+  ],
+  "computed": [],
+  "methods": [
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "toggleRed",
+      "params": [],
+      "syntax": [
+        "toggleRed(): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "toggleColor",
+      "params": [],
+      "syntax": [
+        "toggleColor(): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ],
+  "events": [],
+  "slots": []
+}

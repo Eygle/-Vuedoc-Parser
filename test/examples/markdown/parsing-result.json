@@ -1,0 +1,50 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "input",
+      "type": "string",
+      "initialValue": "\"# hello\""
+    }
+  ],
+  "computed": [
+    {
+      "kind": "computed",
+      "keywords": [],
+      "visibility": "public",
+      "name": "output",
+      "type": "unknown",
+      "dependencies": []
+    }
+  ],
+  "methods": [
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "update",
+      "params": [
+        {
+          "name": "e",
+          "type": "unknown",
+          "rest": false
+        }
+      ],
+      "syntax": [
+        "update(e: unknown): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ],
+  "events": [],
+  "slots": []
+}

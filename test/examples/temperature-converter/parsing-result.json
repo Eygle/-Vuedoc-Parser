@@ -1,0 +1,80 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "c",
+      "type": "number",
+      "initialValue": "0"
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "f",
+      "type": "number",
+      "initialValue": "32"
+    }
+  ],
+  "computed": [],
+  "methods": [
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "setC",
+      "params": [
+        {
+          "name": "e",
+          "type": "unknown",
+          "rest": false
+        },
+        {
+          "name": "v",
+          "type": "unknown",
+          "rest": false,
+          "defaultValue": "+e.target.value"
+        }
+      ],
+      "syntax": [
+        "setC(e: unknown, v: unknown = +e.target.value): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "setF",
+      "params": [
+        {
+          "name": "e",
+          "type": "unknown",
+          "rest": false
+        },
+        {
+          "name": "v",
+          "type": "unknown",
+          "rest": false,
+          "defaultValue": "+e.target.value"
+        }
+      ],
+      "syntax": [
+        "setF(e: unknown, v: unknown = +e.target.value): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ],
+  "events": [],
+  "slots": []
+}

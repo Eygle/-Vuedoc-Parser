@@ -1,0 +1,60 @@
+{
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "flightType",
+      "type": "string",
+      "initialValue": "\"one-way flight\""
+    },
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "departureDate",
+      "type": "unknown",
+      "initialValue": "dateToString(new Date())"
+    }
+  ],
+  "computed": [
+    {
+      "kind": "computed",
+      "keywords": [],
+      "visibility": "public",
+      "name": "isReturn",
+      "type": "binary",
+      "dependencies": []
+    },
+    {
+      "kind": "computed",
+      "keywords": [],
+      "visibility": "public",
+      "name": "canBook",
+      "type": "boolean",
+      "dependencies": []
+    }
+  ],
+  "methods": [
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "book",
+      "params": [],
+      "syntax": [
+        "book(): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ],
+  "events": [],
+  "slots": []
+}

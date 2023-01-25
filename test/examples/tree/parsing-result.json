@@ -1,0 +1,81 @@
+{
+  "name": "TreeItem",
+  "inheritAttrs": true,
+  "errors": [],
+  "warnings": [],
+  "keywords": [],
+  "props": [
+    {
+      "kind": "prop",
+      "keywords": [],
+      "visibility": "public",
+      "name": "model",
+      "type": "object",
+      "required": false,
+      "describeModel": false
+    }
+  ],
+  "data": [
+    {
+      "kind": "data",
+      "keywords": [],
+      "visibility": "public",
+      "name": "isOpen",
+      "type": "boolean",
+      "initialValue": "false"
+    }
+  ],
+  "computed": [
+    {
+      "kind": "computed",
+      "keywords": [],
+      "visibility": "public",
+      "name": "isFolder",
+      "type": "boolean",
+      "dependencies": []
+    }
+  ],
+  "methods": [
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "toggle",
+      "params": [],
+      "syntax": [
+        "toggle(): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "changeType",
+      "params": [],
+      "syntax": [
+        "changeType(): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "kind": "method",
+      "keywords": [],
+      "visibility": "public",
+      "name": "addChild",
+      "params": [],
+      "syntax": [
+        "addChild(): void"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ],
+  "events": [],
+  "slots": []
+}
